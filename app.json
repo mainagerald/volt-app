@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "volt-app",
+    "slug": "volt-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mainageraldorg.voltapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mainageraldorg.voltapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0704d744-a976-42fb-91ee-c8b66204e59a"
+      }
+    },
+    "owner": "mainagerald-org",
+    "updates": {
+      "url": "https://u.expo.dev/0704d744-a976-42fb-91ee-c8b66204e59a"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
